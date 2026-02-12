@@ -1,0 +1,80 @@
+/* GENERAL STYLE */
+/* so dito naman po yung  back ground color ng buong website ko */
+body {
+    
+    text-align: center;
+    background-color: #0c2e4d; 
+    
+    
+}
+
+/* HEADER */
+/* so  dito  naman po maeedit yung welcome tov sammys personal website*/
+header {
+    background-color: #02192c;
+    color: white;
+
+}
+
+/* NAVIGATION */
+/* so dito namn po maeedit si home about gallery na pipindutin*/
+
+nav { /* styling po for navigation na eedit yung laki and color nya */
+    background-color: #87CEEB;
+    padding: 30px;
+}
+
+nav ul { 
+    list-style-type: none;
+    padding: 60;
+}
+
+nav ul li { /*  So sir eto pong part nato ay ang pag gitna nina home about gallery na nav*/
+    display: inline;
+    margin: 15px;
+}
+
+nav a { /* dito nman po naeedit yung text na  home about and gallery*/
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav a:hover { /* so  dito naman po nag babgo kulay nila pag pinipindot*/
+    color: white;
+}
+
+/* SECTION STYLE */
+/* dito nman po ma eedit yung pagkaka hiwalay nila na section*/
+section {
+    background-color: rgb(204, 234, 246);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* GALLERY */
+/*dito naman po yung pag eedit sa gallery*/
+.gallery {
+    display: flex;
+    flex-wrap: wrap; /* para po mag kasya doon sa section parra di lumagpas*/
+    justify-content: center; /*para po gumit na  po silang lahat yun g image po*/
+    gap: 15px;
+}
+
+.gallery img {
+    /*Para po maedit yung  lakit po ng image mismo*/
+    width: 250px;
+    height: 250px;
+    
+    
+}
+
+/* FOOTER */
+/* para po maedit ang  footer*/
+footer {
+    background-color: #4682B4;
+    color: white;
+    padding: 20px;
+    
+}
